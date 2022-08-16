@@ -1,0 +1,372 @@
+.banner .replacement .slider {
+  position: relative;
+}
+.banner .replacement .slider .bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner .replacement .slider .bannerText p {
+  text-shadow: 0 1px 1px #333;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.banner .owl-carousel {
+  position: relative;
+  transition: all 0.5s;
+}
+.banner .owl-carousel .owl-prev .fa {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  font-size: 40px;
+  color: #000;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  padding: 0 3px 0 0;
+}
+.banner .owl-carousel .owl-prev .fa:hover {
+  color: #fff;
+  background: #f15a24;
+  transition: all 0.8s;
+}
+@media (max-width: 991px) {
+  .banner .owl-carousel .owl-prev .fa {
+    display: none;
+  }
+}
+.banner .owl-carousel .owl-next .fa {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  font-size: 40px;
+  color: #000;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  padding: 0 0 0 3px;
+}
+.banner .owl-carousel .owl-next .fa:hover {
+  color: #fff;
+  background: #f15a24;
+  transition: all 0.8s;
+}
+@media (max-width: 991px) {
+  .banner .owl-carousel .owl-next .fa {
+    display: none;
+  }
+}
+.banner .owl-carousel .owl-dots {
+  display: none;
+}
+
+.repairService {
+  padding: 30px 0;
+}
+.repairService .computerMacbook p {
+  color: #777;
+  padding: 0 0 10px;
+}
+
+.deltaSurrey {
+  background-color: #000;
+  padding: 50px 0;
+  text-align: center;
+}
+.deltaSurrey .webIcon {
+  width: 10%;
+  display: inline-block;
+  margin: 0 90px 30px 0px;
+}
+@media (max-width: 991px) {
+  .deltaSurrey .webIcon {
+    margin: 0 50px 60px 0;
+  }
+}
+.deltaSurrey .buttonSection {
+  width: auto;
+  display: inline-block;
+  margin: 0 40px 0 0;
+}
+.deltaSurrey .buttonSection .primaryButton {
+  min-width: 215px;
+  font-size: 14px;
+}
+@media (max-width: 991px) {
+  .deltaSurrey .buttonSection {
+    margin: 0 40px 35px 0;
+  }
+}
+
+.testimonials {
+  padding: 30px 0;
+}
+.testimonials h2 {
+  font-size: 24px;
+}
+.testimonials .testimonialContent .quickService p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+  margin-top: 10px;
+}
+.testimonials .testimonialContent .quickService .ratingIcon i {
+  color: #1a1a1a;
+}
+.testimonials .testimonialContent .quickService .testimonialProfile {
+  margin: 20px 0;
+  text-align: center;
+}
+.testimonials .testimonialContent .quickService .testimonialProfile .title {
+  border-right: 1px solid #777;
+  padding: 0 30px 0 0;
+}
+.testimonials .owl-nav {
+  display: none;
+}
+.testimonials .owl-dots {
+  display: none;
+}
+
+.queriesAbout {
+  background-color: #000;
+  width: 100%;
+  padding: 18px 0;
+}
+.queriesAbout .yourComputer h4 {
+  font-size: 22px;
+  color: #fff;
+  line-height: normal;
+  margin: 0 20px 0px 0;
+}
+@media (max-width: 991px) {
+  .queriesAbout .yourComputer h4 {
+    font-size: 17px;
+    margin: 5px 0 15px 0;
+  }
+}
+@media (max-width: 991px) {
+  .queriesAbout .yourComputer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px 0 20px 0;
+  }
+}
+
+.repairBanner {
+  background-image: url(../images/innerimage1.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 210px;
+  position: relative;
+}
+.repairBanner h2 {
+  font-family: "poppinsbold";
+  position: absolute;
+  color: #fff;
+  bottom: 20px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.commonRepair {
+  padding: 35px 0;
+}
+.commonRepair .logicBoards p {
+  color: #777;
+  text-align: left;
+}
+.commonRepair .boardImage {
+  text-align: right;
+}
+.commonRepair .boardImage img {
+  max-width: 360px;
+}
+@media (max-width: 991px) {
+  .commonRepair .boardImage img {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+
+.chooseComputer {
+  background-color: #000;
+  padding: 30px 0;
+}
+.chooseComputer .trustWorthy ul {
+  padding: 8px 0 0 20px;
+}
+.chooseComputer .trustWorthy ul li {
+  text-align: left;
+  color: #fff;
+  width: 30%;
+  float: left;
+  list-style: initial;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-family: "open_sanslight";
+}
+.chooseComputer .primaryButton {
+  margin: 0 0 15px 0;
+  padding: 20px;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .chooseComputer .primaryButton {
+    margin: 15px 0 0 0;
+  }
+}
+
+.replacmentMacbook {
+  padding: 30px 0;
+}
+.replacmentMacbook .logicboardRepair h3 {
+  color: #2d2d2d;
+}
+.replacmentMacbook .logicboardRepair p {
+  color: #777;
+}
+.replacmentMacbook .logicboardRepair .repairButtonn .primaryButton {
+  padding: 7px 12px;
+  font-family: "poppinsbold";
+  font-size: 13px;
+}
+
+#deltaBg {
+  background: transparent;
+}
+#deltaBg .sectionHead {
+  width: auto;
+  display: inline-block;
+  margin: 0 40px 20px 0;
+}
+@media (max-width: 991px) {
+  #deltaBg .sectionHead {
+    margin-bottom: 30px;
+  }
+}
+#deltaBg .sectionHead h2 {
+  margin: 0 0 24px 0;
+  font-family: "poppinsmedium";
+}
+#deltaBg .sectionHead .primaryButton {
+  padding: 12px 60px;
+  font-size: 14px;
+  margin: 0 0 18px 0;
+}
+#deltaBg p {
+  color: #777;
+  text-align: left;
+}
+
+.laptopProduct {
+  padding: 50px 0;
+}
+.laptopProduct .productContent {
+  float: right;
+  width: 295px;
+  margin: 0 0 0 28px;
+}
+.laptopProduct strong {
+  color: #777;
+}
+.laptopProduct p {
+  color: #777;
+}
+.laptopProduct p a {
+  background: transparent;
+  color: #777;
+}
+.laptopProduct p a:hover {
+  color: #f15a24;
+}
+.laptopProduct h2 {
+  margin: 0 0 18px 0;
+  font-family: "poppinsbold";
+  font-size: 26px;
+  color: #000;
+}
+.laptopProduct h3 {
+  font-family: "poppinssemibold";
+  color: #2d2d2d;
+}
+.laptopProduct .product-listing {
+  width: 100%;
+  float: left;
+  margin: 0 0 12px 0;
+}
+.laptopProduct .product-listing ul {
+  padding: 0px 0 0 38px;
+  list-style: none;
+  margin: 0;
+}
+.laptopProduct .product-listing ul li {
+  width: 100%;
+  float: left;
+  color: #666;
+}
+.laptopProduct .product-listing ul li::before {
+  content: ".";
+  color: #f15a24;
+  font-family: "poppinsbold";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.laptopProduct h4 {
+  font-family: "poppinsbold";
+}
+.laptopProduct .referLink {
+  margin: 0 0 18px 70px;
+}
+.laptopProduct .referLink li {
+  list-style: disc;
+  font-size: 12px;
+  color: #aaa;
+}
+.laptopProduct .referLink li a {
+  background: transparent;
+  color: #aaa;
+}
+.laptopProduct .referLink li a:hover {
+  color: #f15a24;
+}
+.laptopProduct .productBook {
+  margin: 22px 0 17px 0;
+}
+.laptopProduct .productBook h4 .primaryButton {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.callButtn {
+  margin: 0 auto 0;
+  width: auto;
+  text-align: center;
+  display: none;
+  margin-top: 25px;
+}
+@media (max-width: 575px) {
+  .callButtn {
+    display: block;
+  }
+}
+.callButtn .primaryButton {
+  margin: 0 0 15px 0;
+  padding: 14px;
+  font-size: 16px;
+}

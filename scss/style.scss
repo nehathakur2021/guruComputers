@@ -1,0 +1,398 @@
+@import "./variables.scss";
+// Banner
+.banner {
+    .replacement {
+        .slider {
+            position: relative;
+            .bannerText {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                p {
+                    text-shadow: 0 1px 1px #333;
+                    line-height: 30px;
+                    text-align: center;
+                    color: $primary-contrast-color;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+    .owl-carousel {
+        position: relative;
+        transition: all 0.5s;
+        .owl-prev {
+            .fa {
+                position: absolute;
+                top: 50%;
+                left: 1%;
+                font-size: 40px;
+                color: $primary-dark-color;
+                background: $primary-contrast-color;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 50%;
+                padding: 0 3px 0 0;
+                &:hover {
+                    color: $primary-contrast-color;
+                    background: $primary-color;
+                    transition: all 0.8s;
+                }
+                @media(max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+        .owl-next {
+            .fa {
+                position: absolute;
+                top: 50%;
+                right: 1%;
+                font-size: 40px;
+                color: $primary-dark-color;
+                background: $primary-contrast-color;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 50%;
+                padding: 0 0 0 3px;
+                &:hover {
+                    color: $primary-contrast-color;
+                    background: $primary-color;
+                    transition: all 0.8s;
+                }
+                @media(max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+        .owl-dots {
+            display: none;
+        }
+    }
+}
+
+// COMPUTER REPAIR & MACBOOK REPAIR SERVICE
+.repairService {
+    padding: 30px 0;
+    .computerMacbook {
+        p {
+            color: $grey;
+            padding: 0 0 10px;
+        }
+    }
+}
+
+// Repair in Delta & Surrey
+.deltaSurrey {
+    background-color: $primary-dark-color;
+    padding: 50px 0;
+    text-align: center;
+    .webIcon {
+        width: 10%;
+        display: inline-block;
+        margin: 0 90px 30px 0px;
+        @media(max-width: 991px) {
+            margin: 0 50px 60px 0;
+        }
+    }
+    .buttonSection {
+        width: auto;
+        display: inline-block;
+        margin: 0 40px 0 0;
+        .primaryButton {
+            min-width: 215px;
+            font-size: 14px;
+        }
+        @media(max-width: 991px) {
+            margin: 0 40px 35px 0;
+        }
+    }
+}
+
+// TESTIMONIALS 
+.testimonials {
+    padding: 30px 0;
+    h2 {
+        font-size: 24px;
+    }
+    .testimonialContent {
+        .quickService {
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                color: $grey;
+                margin-top: 10px;
+            }
+            .ratingIcon {
+                i {
+                    color: $baseblack;
+                }
+            }
+            .testimonialProfile {
+                margin: 20px 0;
+                text-align: center;
+                .title {
+                    border-right: 1px solid $grey;
+                    padding: 0 30px 0 0;
+                }
+            }
+        }
+    }
+    .owl-nav {
+        display: none;
+    }
+    .owl-dots {
+        display: none;
+    }
+}
+
+// queries about your Computer/MacBook repair?
+.queriesAbout {
+    background-color: $primary-dark-color;
+    width: 100%;
+    padding: 18px 0;
+    .yourComputer {
+        h4 {
+            font-size: 22px;
+            color: $primary-contrast-color;
+            line-height: normal;
+            margin: 0 20px 0px 0;
+            @media(max-width: 991px) {
+                font-size: 17px;
+                margin: 5px 0 15px 0;
+            }
+        }
+        @media(max-width: 991px) {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 12px 0 20px 0;
+        }
+    }
+}
+
+// MacBook Repair Service ---------------------//
+// RepairBanner
+.repairBanner {
+    background-image: url(../images/innerimage1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 210px;
+    position: relative;
+    h2 {
+        font-family: 'poppinsbold';
+        position: absolute;
+        color: $primary-contrast-color;
+        bottom: 20px;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+}
+
+// logic boards for common repairs
+.commonRepair {
+    padding: 35px 0;
+    .logicBoards {
+        p {
+            color: $grey;
+            text-align: left;
+        }
+    }
+    .boardImage {
+        text-align: right;
+        img {
+            max-width: 360px;
+            @media(max-width: 991px) {
+                max-width: 400px;
+                margin: 0 auto;
+                display: flex;
+            }
+        }
+    }
+}
+
+// WHY SHOULD YOU CHOOSE GURU COMPUTERS
+.chooseComputer {
+    background-color: $primary-dark-color;
+    padding: 30px 0;
+    .trustWorthy {
+        ul {
+            padding: 8px 0 0 20px;
+            li {
+                text-align: left;
+                color: $primary-contrast-color;
+                width: 30%;
+                float: left;
+                list-style: initial;
+                padding-bottom: 5px;
+                font-size: 14px;
+                font-family: 'open_sanslight';
+            }
+        }
+    }
+    .primaryButton {
+        margin: 0 0 15px 0;
+        padding: 20px;
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        @media(max-width: 991px) {
+            margin: 15px 0 0 0;
+        }
+    }
+}
+
+// Macbook Replacement & Repair Keyboard LogicBoard
+.replacmentMacbook {
+    padding: 30px 0;
+    .logicboardRepair {
+        h3 {
+            color: $secondary-dark-color;
+        }
+        p {
+            color: $grey;
+        }
+        .repairButtonn {
+            .primaryButton {
+                padding: 7px 12px;
+                font-family: 'poppinsbold';
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+// Computer Repair Services-----------------------------
+// Computer Reapir Services Delta & Surrey 
+#deltaBg {
+    background: transparent;
+    .sectionHead {
+        width: auto;
+        display: inline-block;
+        margin: 0 40px 20px 0;
+        @media(max-width: 991px) {
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin: 0 0 24px 0;
+            font-family: 'poppinsmedium';
+        }
+        .primaryButton {
+            padding: 12px 60px;
+            font-size: 14px;
+            margin: 0 0 18px 0;
+        }
+    }
+    p {
+        color: $grey;
+        text-align: left;
+    }
+}
+
+// Laptop screen replacement In Delta – Can we repair your laptop screen?------------------
+.laptopProduct {
+    padding: 50px 0;
+    .productContent {
+        float: right;
+        width: 295px;
+        margin: 0 0 0 28px;
+    }
+    strong {
+        color: $grey;
+    }
+    p {
+        color: $grey;
+        a {
+            background: transparent;
+            color: $grey;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+    h2 {
+        margin: 0 0 18px 0;
+        font-family: 'poppinsbold';
+        font-size: 26px;
+        color: $primary-dark-color;
+    }
+    h3 {
+        font-family: 'poppinssemibold';
+        color: $secondary-dark-color;
+    }
+    .product-listing {
+        width: 100%;
+        float: left;
+        margin: 0 0 12px 0;
+        ul {
+            padding: 0px 0 0 38px;
+            list-style: none;
+            margin: 0;
+            li {
+                width: 100%;
+                float: left;
+                color: $grey2;
+                &::before {
+                    content: ".";
+                    color: $primary-color;
+                    font-family: 'poppinsbold';
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                }
+            }
+        }
+    }
+    h4 {
+        font-family: 'poppinsbold';
+    }
+    .referLink {
+        margin: 0 0 18px 70px;
+        li {
+            list-style: disc;
+            font-size: 12px;
+            color: $grey3;
+            a {
+                background: transparent;
+                color: $grey3;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+    .productBook {
+        margin: 22px 0 17px 0;
+        h4 {
+            .primaryButton {
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+// Laptop SSD Upgrade | MacBook SSD Repair-----------------------
+// Callus-Button
+.callButtn {
+    margin: 0 auto 0;
+    width: auto;
+    text-align: center;
+    display: none;
+    margin-top: 25px;
+    @media(max-width: 575px) {
+        display: block;
+    }
+    .primaryButton {
+        margin: 0 0 15px 0;
+        padding: 14px;
+        font-size: 16px;
+    }
+}
+
+// iMac Repair Delta - iMac Parts Replacement

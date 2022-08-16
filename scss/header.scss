@@ -1,0 +1,116 @@
+@import "./variables.scss";
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    width: 100%;
+    transition: all 0.8s;
+    background: rgba(0, 0, 0, 0.5);
+    &.fixedHeader {
+        background: $darkcolor!important;
+    }
+    .navbar {
+        padding: 0 !important;
+        .navbar-brand {
+            img {
+                max-width: 240px;
+                @media(max-width: 767px) {
+                    max-width: 150px;
+                }
+            }
+        }
+        .navbar-toggler {
+            box-shadow: none !important;
+            .menuBar {
+                border: 3px solid $primary-color;
+                padding: 10px 15px;
+                border-radius: 5px;
+                color: $primary-color;
+                font-size: 20px;
+            }
+        }
+        li {
+            &.nav-item {
+                font-family: 'open_sanslight';
+                .nav-link {
+                    font-size: 16px;
+                    padding: 10px 16px;
+                    color: $primary-contrast-color;
+                    &:hover {
+                        color: $primary-color;
+                        transition: all 0.4s;
+                    }
+                    &.active {
+                        color: $primary-color;
+                    }
+                }
+                .dropdown-menu {
+                    background: #2d2d2d;
+                    a {
+                        color: $primary-contrast-color;
+                        padding: 9px 17px;
+                        font-size: 14px;
+                        font-family: 'open_sanslight';
+                        &:hover {
+                            color: $primary-color;
+                            transition: all 0.4s;
+                            background: none;
+                        }
+                    }
+                }
+            }
+        }
+        .mainDropdown {
+            &:hover {
+                .dropdown-menu {
+                    &.mainMenu {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .repairDropdown {
+            &:hover {
+                .repairMenu {
+                    display: block;
+                }
+            }
+        }
+        .subMenuDropdown {
+            &:hover {
+                .dropdown-menu {
+                    &.subMenu {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .subMenu {
+            position: absolute;
+            left: 100%;
+            top: 0;
+        }
+        .detailed {
+            row-gap: 7px;
+            @media(max-width: 991px) {
+                text-align: center;
+                margin-top: 12px;
+            }
+            a {
+                color: $primary-contrast-color;
+                font-size: 14px;
+                font-family: 'open_sanslight';
+                margin: 0 12px 0 0;
+                i {
+                    margin: 0 6px 0 0;
+                }
+                &:hover {
+                    color: $primary-color;
+                    transition: all 0.4s;
+                }
+            }
+        }
+    }
+}
